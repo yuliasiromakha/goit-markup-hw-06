@@ -699,6 +699,7 @@ text-align: center;
 color: rgba(255, 255, 255, 1);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+border-color: transparent;
 
 }
 
@@ -711,6 +712,30 @@ border-radius: 4px;
 .area-and-button {
 margin-top: 20px;
 }
+
+.subscribe-form input::placeholder{
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-input {
+    width: 358px;
+    height: 50px;
+background-color: rgba(47, 48, 58, 1);
+ border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 16px;
+}
+    
 
 /* СТИЛІЗАЦІЯ СТОРІНКИ ПОРТФОЛІО*/
 
@@ -997,7 +1022,7 @@ text-align: left;
 color: rgba(117, 117, 117, 1);
 }
 
-.placeholder {
+.form-field input::placeholder {
 
 font-size: 12px;
 line-height: 14px;
@@ -1020,8 +1045,12 @@ color: rgba(117, 117, 117, 0.5);
 
 .checkbox {
     display: flex;
-    align-items: baseline;
+    align-items:center;
 }
+
+/* .checkbox input [type="checkbox"] {
+  
+} */
 
 .conditions-span {
     color:  rgba(33, 150, 243, 1);
