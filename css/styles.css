@@ -705,6 +705,12 @@ align-items: baseline;
     border-radius: 4px;
     border-color: transparent;
 
+    fill: white;
+
+}
+
+.white-send-svg {
+    fill: white;
 }
 
 .subscription-block {
@@ -740,8 +746,8 @@ padding-bottom: 15px;
 padding-left: 16px;
 }
     
-.person {
-    
+.mail-icon {
+fill: #212121;
 }
 
 /* СТИЛІЗАЦІЯ СТОРІНКИ ПОРТФОЛІО*/
@@ -1066,6 +1072,15 @@ color: rgba(117, 117, 117, 0.5);
     margin-left: 0;
 }
 
+/* .mail-icon-positioning {
+    position: relative;
+} */
+
+/* .email-icon {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+} */
 
 /* .checkbox input [type="checkbox"] {
   
