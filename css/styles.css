@@ -711,7 +711,10 @@ align-items: baseline;
 
 .white-send-svg {
     fill: white;
+    margin-left: 10px;
 }
+
+
 
 .subscription-block {
     display: flex;
@@ -1008,11 +1011,19 @@ color: rgba(33, 33, 33, 1);
  
 .form-field {
     /* outline: 1px solid teal; */
+    position: relative;
     display: flex;
     flex-direction: column;
 
     margin-bottom: 10px;
 }
+
+.modal-icon-positioning {
+    position: absolute;
+    left: 15px;
+    bottom: 13px;
+}
+
 
 .form-field input {
     margin: 0;
@@ -1021,6 +1032,7 @@ color: rgba(33, 33, 33, 1);
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    padding-left: 40px;
 }
 
 .form-field label {
