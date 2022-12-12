@@ -1134,22 +1134,6 @@ color: rgba(117, 117, 117, 0.5);
 
     padding-left: 36px;
 
-
-
-    /* position: relative; */
-}
-
-.checkbox-text.label {
-    display: block;
-}
-
-.checkbox {
-    display: flex;
-    align-items:center;
-    margin-top: 20px;
-    margin-left: 0;
-
-    /* position: relative; */
 }
 
 .checkbox-input {
@@ -1158,7 +1142,6 @@ color: rgba(117, 117, 117, 0.5);
     appearance: none;
     margin-top: 4px;
 
-    /* position: relative; */
 }
 
 .checkbox-icon {
@@ -1174,11 +1157,26 @@ color: rgba(117, 117, 117, 0.5);
 
 }
 
-
-
-.checkbox:checked + .checkbox-icon {
-    background-color:var(--accent-color) ;
+.checkbox-text.label {
+    display: block;
 }
+
+.checkbox {
+    display: flex;
+    align-items:center;
+    margin-top: 20px;
+    margin-left: 0;
+
+    /* position: relative; */
+}
+
+
+
+
+
+/* .checkbox:checked + .checkbox-icon {
+    background-color:var(--accent-color) ;
+} */
 
 /* .checkbox-text.label::after {
 content: '';
