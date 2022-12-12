@@ -68,7 +68,12 @@
 
  <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button data-modal-close class="close-button"> </button>
+
+        <button data-modal-close class="close-button">
+            <svg width="15" height="15" class="close-button-svg"> 
+                <use href="images/icons.svg#icon-close-button"></use>
+            </svg>
+        </button>
 
         <div class="modal-content">
 
@@ -76,37 +81,46 @@
         <form class="modal-form">
             <!-- CHANGE TO CLASS FROM SCRIPT -->
         <div class="form-field"> 
-            <svg width="18" height="18" class="modal-icon-positioning"> 
-                <use href="./images/icons.svg#icon-black-person"></use>
-            </svg> 
-            <label class="label-text" for="name">Ім'я</label>
-            <input type="text" name="name" id="name"> 
+         
+            <label class="label-text" for="name">Ім'я
+                <input class="form-input" type="text" name="name" id="name"> 
+                <svg width="18" height="18" class="modal-icon-positioning"> 
+                    <use href="./images/icons.svg#icon-black-person"></use>
+                </svg>
+            </label>
+            
         </div>
         <div class="form-field">  
-            <label class="label-text" for="telephone">Номер телефону</label>
-            <input type="tel" name="telephone" id="telephone">
+            <label class="label-text" for="telephone">Номер телефону
+                <input class="form-input" type="tel" name="telephone" id="telephone">
              <svg width="18" height="18" class="modal-icon-positioning" > 
                 <use href="./images/icons.svg#icon-black-phone"></use>
             </svg> 
+            </label>
+            
         </div>
         <div class="form-field">
 
-            <label class="label-text" for="mail">Пошта</label>
-            <input type="email" name="email" id="mail">
-             <svg width="18" height="18" class="modal-icon-positioning"> 
-                <use href="./images/icons.svg#icon-black-email"></use>
-            </svg> 
+            <label class="label-text" for="mail">Пошта
+                <input class="form-input" type="email" name="email" id="mail">
+                <svg width="18" height="18" class="modal-icon-positioning"> 
+                   <use href="./images/icons.svg#icon-black-email"></use>
+               </svg> 
+            </label>
+            
             
         </div>
         <div class="form-field">
             <label class="label-text" for="comment">Коментар</label>
-            <textarea class="text-area" type="text" name="comment" id="comment" placeholder="Введіть текст" rows="6"></textarea>
+            <textarea class="text-area" type="text" name="comment" id="comment" placeholder="Введіть текст" rows="5"></textarea>
         </div>
 
         <div class="checkbox">
-            <input class="checkbox-input" type="checkbox" name="" value="agreement" id="agreement" placeholder="Введіть текст"/>
-            <label class="checkbox-text" for="agreement"> Погоджуюся з розсилкою та приймаю 
+            
+            <label class="checkbox-text label"> Погоджуюся з розсилкою та приймаю 
                 <a class="conditions-span" href="">Умови договору</a>
+                <input class="checkbox-input" type="checkbox" name="" value="agreement" placeholder="Введіть текст"/>
+                <span class="checkbox-icon"></span>
             </label>
         </div>
 
@@ -539,10 +553,6 @@
        </div>
 
    </div>
-
-   <!-- ФОРМА -->
-
-  
 
   </footer>
 
