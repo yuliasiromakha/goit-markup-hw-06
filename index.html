@@ -71,7 +71,7 @@
 
         <button data-modal-close class="close-button">
             <svg width="15" height="15" class="close-button-svg"> 
-                <use href="images/icons.svg#icon-close-button"></use>
+                <use href="./images/icons.svg#icon-close-button"></use>
             </svg>
         </button>
 
@@ -82,31 +82,36 @@
             <!-- CHANGE TO CLASS FROM SCRIPT -->
         <div class="form-field"> 
          
-            <label class="label-text" for="name">Ім'я
-                <input class="form-input" type="text" name="name" id="name"> 
+            <label class="label-text">Ім'я
+                <input class="form-input" type="text" name="name" > 
                 <svg width="18" height="18" class="modal-icon-positioning"> 
                     <use href="./images/icons.svg#icon-black-person"></use>
                 </svg>
             </label>
             
+            
         </div>
         <div class="form-field">  
-            <label class="label-text" for="telephone">Номер телефону
-                <input class="form-input" type="tel" name="telephone" id="telephone">
+            <label class="label-text" >Номер телефону
+                <input class="form-input" type="tel" name="telephone" >
              <svg width="18" height="18" class="modal-icon-positioning" > 
                 <use href="./images/icons.svg#icon-black-phone"></use>
             </svg> 
             </label>
             
+            
         </div>
         <div class="form-field">
 
-            <label class="label-text" for="mail">Пошта
-                <input class="form-input" type="email" name="email" id="mail">
+            <label class="label-text" >Пошта
+              
+                <input class="form-input" type="email" name="email">
                 <svg width="18" height="18" class="modal-icon-positioning"> 
                    <use href="./images/icons.svg#icon-black-email"></use>
-               </svg> 
+               </svg>
+               
             </label>
+             
             
             
         </div>
@@ -117,11 +122,15 @@
 
         <div class="checkbox">
             
-            <label class="checkbox-text label"> Погоджуюся з розсилкою та приймаю 
-                <a class="conditions-span" href="">Умови договору</a>
-                <input class="checkbox-input" type="checkbox" name="" value="agreement" placeholder="Введіть текст"/>
-                <span class="checkbox-icon"></span>
+            <label class="checkbox-text label">
+            <input class="checkbox-input" type="checkbox" name="" value="agreement" placeholder="Введіть текст"/>
+            <span class="checkbox-icon"></span>
+            <p class="agreement">
+                Погоджуюся з розсилкою та приймаю 
+                <a class="conditions-span" href="">Умови договору</a> 
+            </p>
             </label>
+            
         </div>
 
             <button class="submit-button" type="submit"> Відправити </button>
