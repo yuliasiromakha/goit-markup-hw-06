@@ -895,6 +895,7 @@ display: block;
 
 .backdrop {
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0; 
     width: 100%;
@@ -906,7 +907,6 @@ display: block;
 
 .modal {
     position: absolute;
-    z-index: 1;
 
     width: 528px;
     height: 581px;
@@ -1004,8 +1004,15 @@ color: rgba(33, 33, 33, 1);
 
     position: absolute;
     display: block;
-    left: 15px;
-    bottom: 13px;
+  
+    
+    left: 13.5px;
+    bottom: 11.5px;
+
+    /* left: 0;
+    bottom: 0; */
+    /* margin-left: 13.5px;
+    margin-bottom: 14px; */
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
